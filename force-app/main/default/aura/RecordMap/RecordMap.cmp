@@ -11,7 +11,6 @@
     <aura:attribute name="fields" type="String[]" default="['Id']" />
     <aura:attribute name="mapMarkers" type="Object[]" />
     <aura:attribute name="zoomLevel" type="Integer" default="16" />
-    <aura:attribute name="teste" type="boolean" />
 
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
